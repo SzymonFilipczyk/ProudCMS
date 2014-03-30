@@ -1,10 +1,26 @@
-﻿<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Dokument bez tytułu</title>
-</head>
+<?php
+/*
+*	Admin page
+*/
+// Session start
+session_start();
 
-<body>
-</body>
-</html>
+// Global configuration
+$include_security;
+$debug_mode = true;
+
+//
+require_once "../includes/config.inc.php";
+
+// RE
+if (!isset($_GET["pageRequest"]))
+	error404();
+
+	require_once "class/page.class.php";
+	
+	$strona = new page();
+	$strona->createPage();
+	$strona->removePage();
+	$strona->getPagesList();
+	
+?>
