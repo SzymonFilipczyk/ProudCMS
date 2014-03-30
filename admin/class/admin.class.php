@@ -1,8 +1,4 @@
-﻿<?php
-class admin {
+<?php
+class adminControler {
 	
-	
-	public function test() {
-		echo "ja - dziala";
-	}
 }

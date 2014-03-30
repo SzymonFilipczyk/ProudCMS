@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="page.class.php" server="filipczyk.net/proudcms/" local="130406035916218472" remote="130406035800000000" Dst="1" />
-<file name="admin.class.php" server="filipczyk.net/proudcms/" local="130406557723338717" remote="130406521200000000" Dst="2" />
-<file name="gallery.class.php" server="filipczyk.net/proudcms/" local="130406015795387627" remote="130406458800000000" Dst="2" />
-<file name="log.class.php" server="filipczyk.net/proudcms/" local="130406557757930695" remote="130406521200000000" Dst="2" />
-<file name="news.class.php" server="filipczyk.net/proudcms/" local="130406474580000000" remote="130406458800000000" Dst="2" />
+<file name="page.class.php" server="filipczyk.net/proudcms/" local="130406884810000000" remote="130406848200000000" Dst="2" />
+<file name="admin.class.php" server="filipczyk.net/proudcms/" local="130406905276329291" remote="130406869200000000" Dst="2" />
+<file name="gallery.class.php" server="filipczyk.net/proudcms/" local="130406884813158864" remote="130406848800000000" Dst="2" />
+<file name="log.class.php" server="filipczyk.net/proudcms/" local="130406884798068001" remote="130406848200000000" Dst="2" />
+<file name="news.class.php" server="filipczyk.net/proudcms/" local="130406884817069088" remote="130406848800000000" Dst="2" />
+<file name="mail.class.php" server="filipczyk.net/proudcms/" local="130406884823599461" remote="130406848800000000" Dst="2" />
+<file name="stat.class.php" server="filipczyk.net/proudcms/" local="130406884820709296" remote="130406848800000000" Dst="2" />
 </dwsync>

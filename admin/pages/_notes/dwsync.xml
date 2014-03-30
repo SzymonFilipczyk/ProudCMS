@@ -7,7 +7,7 @@
 <file name="gallerycreate.inc.php" server="filipczyk.net/proudcms/" local="130405728603567885" remote="130406458800000000" Dst="2" />
 <file name="gallerylist.inc.php" server="filipczyk.net/proudcms/" local="130405728464819949" remote="130406458800000000" Dst="2" />
 <file name="galleryremove.inc.php" server="filipczyk.net/proudcms/" local="130405729061934102" remote="130406458800000000" Dst="2" />
-<file name="login.inc.php" server="filipczyk.net/proudcms/" local="130405726800000000" remote="130406458800000000" Dst="2" />
+<file name="login.inc.php" server="filipczyk.net/proudcms/" local="130406899728451970" remote="130406863200000000" Dst="2" />
 <file name="logout.inc.php" server="filipczyk.net/proudcms/" local="130405726928152057" remote="130406458800000000" Dst="2" />
 <file name="logrecover.inc.php" server="filipczyk.net/proudcms/" local="130405726938572653" remote="130406458800000000" Dst="2" />
 <file name="pageedit.inc.php" server="filipczyk.net/proudcms/" local="130405728117520085" remote="130406458800000000" Dst="2" />
@@ -17,5 +17,5 @@
 <file name="pageadd.inc.php" server="filipczyk.net/proudcms/" local="130405728400236255" remote="130406458800000000" Dst="2" />
 <file name="pagelist.inc.php" server="filipczyk.net/proudcms/" local="130405726940512764" remote="130406458800000000" Dst="2" />
 <file name="pageremove.inc.php" server="filipczyk.net/proudcms/" local="130405728745145983" remote="130406458800000000" Dst="2" />
-<file name="index.inc.php" server="filipczyk.net/proudcms/" local="130406497080000000" remote="130406473800000000" Dst="2" />
+<file name="index.inc.php" server="filipczyk.net/proudcms/" local="130406906132168242" remote="130406869800000000" Dst="2" />
 </dwsync>

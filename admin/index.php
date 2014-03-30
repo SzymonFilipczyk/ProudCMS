@@ -6,7 +6,7 @@
 session_start();
 
 // Global configuration
-$include_security;
+$include_security = true;
 $debug_mode = true;
 
 // Load config file
@@ -36,4 +36,12 @@ require_once "class/stat.class.php";
 require_once "class/mail.class.php";
 
 // Set admin object
-new adminPage;
+$admin = new adminControler;
+
+// Get page
+	//header
+	require_once "theme/header.php";
+	//content
+	require_once $site_to_get;
+	//footer
+	require_once "theme/footer.php";

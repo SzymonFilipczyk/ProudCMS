@@ -2,7 +2,7 @@
 /*
 *	Global config and check security c
 */
-if (isset($include_security))
+if (!isset($include_security))
 	die("Include security error");
 
 if ($debug_mode == true) {

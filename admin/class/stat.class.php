@@ -1,5 +1,5 @@
-﻿<?php
-class adminPage {
+<?php
+class statControler {
 	
 	
 	public function test() {

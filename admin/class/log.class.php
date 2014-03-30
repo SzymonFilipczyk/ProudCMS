@@ -1,5 +1,5 @@
-﻿<?php
-class log {
+<?php
+class logControler {
 	
 	
 	public function test() {

@@ -1,5 +1,5 @@
-<?php
-class mailControler {
+﻿<?php
+class stats {
 	
 	
 	public function test() {

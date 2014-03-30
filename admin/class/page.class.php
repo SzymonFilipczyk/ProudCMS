@@ -1,10 +1,9 @@
-﻿<?php
+<?php
 
-class page {
-//arguemnty
-	public $mojeImie;
+class pageControler {
+	
+	public $myName;
 
-//metody
 	public function removePage() {
 		echo "remove";
 	}
