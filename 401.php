@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
-<title>404 - Strona nie została odnaleziona</title>
+<title>401 - Brak uprawnień</title>
 <style type="text/css">
 body {
 	background-color:rgba(204,204,204,1);
@@ -39,8 +39,8 @@ a:hover {
 <body>
 <div id="content">
 	<div id="error">
-		404 - Strona nie została odnaleziona<br>
-		<small>Żądana strona internetowa nie istnieje bądź jest niedostępna</small>
+		401 - Nieautoryzowany dostęp<br>
+		<small>Nie posiadasz wystarczających uprawnień do tej strony</small>
 	</div>
 	<a href="#" onClick="window.history.back()">Kliknij tutaj aby powrócić do ostatniej przeglądanej strony</a>
 </div>

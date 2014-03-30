@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^([^/]*)$ /index.php?pageRequest=$1 [L]
+RewriteRule ^([^/]*)/$ /index.php?pageRequest=$1 [L]

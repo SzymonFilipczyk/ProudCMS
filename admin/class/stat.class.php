@@ -1,5 +1,5 @@
 ﻿<?php
-class log {
+class adminPage {
 	
 	
 	public function test() {
