@@ -32,7 +32,7 @@ if (!isset($include_security))
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th-large glyph-logo"></span> <span class="top-logo"><strong>ProudCMS</strong> Panel administracyjny</span></a>
+					<a class="navbar-brand" href="index"><span class="glyphicon glyphicon-th-large glyph-logo"></span> <span class="top-logo"><strong>ProudCMS</strong> Panel administracyjny</span></a>
 				</div>
 				
 				<div class="navbar-collapse collapse">
