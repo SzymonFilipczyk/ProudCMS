@@ -23,8 +23,12 @@ if (!file_exists($site_to_get))
 
 // Check admin is logged or no 401
 if (!isset($_SESSION['logged']))
-	if ($site_to_get != "pages/index.inc.php")
+	if ($site_to_get == "pages/index.inc.php") {
+		// Log-in form
+		$site_to_get = "pages/index-login.inc.php";
+	} else {
 		error401();
+	}
 
 // Include all classes
 require_once "class/admin.class.php";

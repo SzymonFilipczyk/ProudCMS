@@ -20,6 +20,7 @@ if (!isset($include_security))
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	</head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -36,8 +37,10 @@ if (!isset($include_security))
 				
 				<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
+				<?php if (isset($_SESSION['logged'])) { ?>
 					<li><a href="#">Pomoc</a></li>
 					<li><a href="#">Szymon Filipczyk - Wyloguj się</a></li>
+				<?php } ?>
 				</ul>
 
 				</div>
@@ -45,9 +48,10 @@ if (!isset($include_security))
 		</div>
 		<div class="container-fluid">
 			<div class="row">
+			<?php if (isset($_SESSION['logged'])) { ?>
 				<div class="col-sm-3 col-md-2 sidebar">
 					<ul class="nav nav-sidebar">
-						<li class="active"><a href="index"><span class="glyphicon glyphicon-home glyph-nav"></span> Podsumowanie</a></li>
+						<li><a href="index"><span class="glyphicon glyphicon-home glyph-nav"></span> Podsumowanie</a></li>
 						<li><a href="special-help"><span class="glyphicon glyphicon-question-sign glyph-nav"></span> Pomoc</a></li>
 						<li><a href="special-notes"><span class="glyphicon glyphicon-list-alt glyph-nav"></span> Notatki</a></li>
 					</ul>
@@ -87,5 +91,8 @@ if (!isset($include_security))
 					</div>
 
 				</div>
-				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main"> 
+				<?php } else { ?>
+				<div class="main">
+				<?php } ?>
 				

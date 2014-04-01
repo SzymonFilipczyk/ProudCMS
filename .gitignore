@@ -1,5 +1,7 @@
 # DW Dreamweaver added files
 _notes
+_notes/
+_notes\
 dwsync.xml
 
 #################
@@ -217,3 +219,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+admin/theme/css/_notes/dwsync.xml
+admin/theme/_notes/dwsync.xml
+admin/pages/_notes/dwsync.xml

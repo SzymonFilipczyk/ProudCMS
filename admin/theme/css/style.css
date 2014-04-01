@@ -125,3 +125,13 @@ body {
 	text-align: center;
 	margin: 0 auto;
 }
+.login-form {
+width: auto;
+margin: 0 auto;	
+}
+@media (min-width: 768px) {
+.login-form {
+width: 700px;
+margin: 10% auto 0%;		
+}
+}
