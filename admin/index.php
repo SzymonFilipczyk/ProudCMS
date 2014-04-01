@@ -39,9 +39,13 @@ require_once "class/mail.class.php";
 $admin = new adminControler;
 
 // Get page
+
 	//header
 	require_once "theme/header.php";
 	//content
 	require_once $site_to_get;
+	//debug warn
+	if ($debug_mode == true)
+		require_once "theme/debug.php";
 	//footer
 	require_once "theme/footer.php";

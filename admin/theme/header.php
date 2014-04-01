@@ -12,6 +12,7 @@ if (!isset($include_security))
 		<meta name="author" content="Szymon Filipczyk">
 		<meta name="Robots" content="noindex, nofollow">
 		<title>Panel administracyjny </title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link href="theme/css/bootstrap.css" rel="stylesheet">
 		<link href="theme/css/style.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,19 +31,15 @@ if (!isset($include_security))
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">ProudCMS - Panel administracyjny</a>
+					<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th-large glyph-logo"></span> <span class="top-logo"><strong>ProudCMS</strong> Panel administracyjny</span></a>
 				</div>
 				
 				<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Dashboard</a></li>
-					<li><a href="#">Settings</a></li>
-					<li><a href="#">Profile</a></li>
-					<li><a href="#">Help</a></li>
+					<li><a href="#">Pomoc</a></li>
+					<li><a href="#">Szymon Filipczyk - Wyloguj się</a></li>
 				</ul>
-					<form class="navbar-form navbar-right">
-							<input type="text" class="form-control" placeholder="Search...">
-					</form>
+
 				</div>
 			</div>
 		</div>
@@ -50,23 +47,45 @@ if (!isset($include_security))
 			<div class="row">
 				<div class="col-sm-3 col-md-2 sidebar">
 					<ul class="nav nav-sidebar">
-						<li class="active"><a href="#">Podgląd</a></li>
-						<li><a href="#">Reports</a></li>
-						<li><a href="#">Analytics</a></li>
-						<li><a href="#">Export</a></li>
+						<li class="active"><a href="index"><span class="glyphicon glyphicon-home glyph-nav"></span> Podsumowanie</a></li>
+						<li><a href="special-help"><span class="glyphicon glyphicon-question-sign glyph-nav"></span> Pomoc</a></li>
+						<li><a href="special-notes"><span class="glyphicon glyphicon-list-alt glyph-nav"></span> Notatki</a></li>
 					</ul>
+					
 					<ul class="nav nav-sidebar">
-						<li><a href="">Nav item</a></li>
-						<li><a href="">Nav item again</a></li>
-						<li><a href="">One more nav</a></li>
-						<li><a href="">Another nav item</a></li>
-						<li><a href="">More navigation</a></li>
+						<li><a href="panel-seo-index"><span class="glyphicon glyphicon-bullhorn glyph-nav"></span> Panel SEO</a></li>
+						<li><a href="panel-stats-index"><span class="glyphicon glyphicon-stats glyph-nav"></span> Statystyki</a></li>
+						<li><a href="panel-info-index"><span class="glyphicon glyphicon-hdd glyph-nav"></span> Informacje</a></li>
 					</ul>
+
 					<ul class="nav nav-sidebar">
-						<li><a href="">Nav item again</a></li>
-						<li><a href="">One more nav</a></li>
-						<li><a href="">Another nav item</a></li>
+						<li><a href="edit-page-index"><span class="glyphicon glyphicon-file glyph-nav"></span> Modyfikacja stron</a></li>
+						<li><a href="edit-menu-index"><span class="glyphicon glyphicon-align-justify glyph-nav"></span> Projektowanie menu</a></li>
+						<li><a href="edit-gallery-index"><span class="glyphicon glyphicon-picture glyph-nav"></span> Zarządzanie galeriami</a></li>
+						<li><a href="edit-form-index"><span class="glyphicon glyphicon-send glyph-nav"></span> Zarządzanie formularzami</a></li>
+						<li><a href="edit-file-index"><span class="glyphicon glyphicon-folder-open glyph-nav"></span> Menadżer plików</a></li>
+						<li><a href="edit-theme-index"><span class="glyphicon glyphicon-eye-open glyph-nav"></span> Edycja stylu</a></li>
 					</ul>
+					
+					<ul class="nav nav-sidebar">
+						<li><a href="admin-setting-index"><span class="glyphicon glyphicon-cog glyph-nav"></span> Ustawienia ProudCMS</a></li>
+						<li><a href="admin-user-index"><span class="glyphicon glyphicon-user glyph-nav"></span> Administratorzy</a></li>
+					</ul>
+					
+					<ul class="nav nav-sidebar">
+						<li><a href="special-ad-content"><span class="glyphicon glyphicon-star-empty glyph-nav"></span><strong>Modyfikacja zawartości</strong></a></li>
+						<li><a href="special-ad-seo"><span class="glyphicon glyphicon-star-empty glyph-nav"></span><strong>Pozycjonowanie</strong></a></li>
+						<li><a href="special-ad-theme"><span class="glyphicon glyphicon-star-empty glyph-nav"></span><strong>Zmiana wyglądu graficznego</strong></a></li>
+					</ul>
+
+					
+					<div class="list-group">
+					  <a href="http://filipczyk.net/" target="_blank" class="list-group-item active">
+						<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-th-large"></span> <strong>ProudCMS</strong> wersja 1.0.1</h4>
+						<p class="list-group-item-text">&copy; 2014 - Szymon Filipczyk</p>
+					  </a>
+					</div>
+
 				</div>
 				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 				

@@ -6,8 +6,18 @@ if (!isset($include_security))
 	die("Include security error");
 
 if ($debug_mode == true) {
+	// Pokazywanie błędów
 	error_reporting(E_ALL);
 	ini_set('display_errors', 1);
+	// !!! DO USUNIECIA !!!
+		if (isset($_GET['debugdata'])) {
+		// Zalogowanie
+			if ($_GET['debugdata'] == "logme")
+				$_SESSION['logged'] = true;
+		// Zniszczenie sesji
+			if ($_GET['debugdata'] == "sessiondestro")
+				session_destroy();
+		}
 }
 
 function error404() {
